@@ -1623,18 +1623,6 @@ a:hover {
    display: block;
  }
  
- a {
-   text-decoration: none;
-   position: absolute;
-   bottom: 10px;
-   right: 10px;
-   text-align: right;
-   color: #eee;
-   font-size: 15px;
-   line-height: 15px;
- }
-
-
 
  .social-ul {
   display: flex;
