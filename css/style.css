@@ -1655,6 +1655,8 @@ a:hover {
   color: #262626;
   transition: .5s;
   z-index: 3;
+   width: 64%;
+  vertical-align: sub;
 }
 
 .social-ul li a:hover .icon {
