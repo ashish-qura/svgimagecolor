@@ -219,12 +219,78 @@ body {
     filter:grayscale(100%) contrast(100%);
   
   }
+  #cpk-colorpicker {
+    background-color: #444;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#cpk-sat-picker {
+    background: #ff0000 url(https://github.com/triff/colorpicker/raw/master/images/saturation.png) no-repeat;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://github.com/triff/colorpicker/raw/master/images/saturation.png', sizingMethod='scale');
+    border: 1px solid #222;
+    cursor: crosshair;
+    float: left;
+    height: 166px;
+    position: relative;
+    width: 166px;
+}
+#cpk-sat-picker .cpk-cursor {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background: url(https://github.com/triff/colorpicker/raw/master/images/sat-cursor.gif) no-repeat;
+}
+#cpk-hue-picker {
+    background: url(https://github.com/triff/colorpicker/raw/master/images/hue.png) no-repeat;
+    border: 1px solid #000;
+    float: left;
+    height: 166px;
+    margin-left: 8px;
+    position: relative;
+    width: 19px;
+}
+#cpk-hue-picker .cpk-cursor {
+    background: url(https://github.com/triff/colorpicker/raw/master/images/hue-cursor.gif) no-repeat;
+    height: 7px;
+    position: absolute;
+    right: -4px;
+    width: 27px;
+}
+
+section {
+    background: #f6f6f6;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 20px 40px;
+}
+label {
+    padding-right: 5px;
+}
+.advanced-input {
+    display: block;
+    float: left;
+}
+  .advanced
+  {
+    background-color: #0DDA94;
+    border: 3px solid #fff;
+    display: block;
+    float: left;
+    width: 50px;
+    border-radius: 6px;
+    margin-right: 14px;
+  }
   .card0 {
     background: url("../img/Yes-Its-Me.JPG") center center no-repeat;
     background-size: 300px;
   }
   .card0:hover {
-    background: url("../img/Yes-Its-Me.JPG") top center no-repeat;
+    background: url("../img/Yes-Its-Me.JPG") center no-repeat;
     background-size: 600px;
   }
   .card0:hover h2 {
