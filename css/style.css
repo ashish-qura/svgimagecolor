@@ -299,7 +299,7 @@ label {
   .card0:hover .fa {
     opacity: 1;
   }
-  h2 {
+  .man-behind {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #fff;
     margin: 20px;
@@ -322,8 +322,16 @@ label {
     align-items: center;
     justify-content: space-around;
   }
-  
-  
+  .banner-wrapper {
+    background-color: #2b1f3a;
+}
+.hero-title {
+  font-size: 70px;
+  line-height: 80px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 50px;
+}
   
 .wrapper {
   width: 100%;
